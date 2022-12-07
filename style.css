@@ -1,0 +1,91 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.navbar p {
+  color: red;
+  font-size: 52px;
+  font-weight: 800;
+}
+body {
+  background-image: url(netflix.svg);
+  font-family: "Inter", sans-serif;
+}
+#signin a button {
+  background-color: red;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-decoration: none;
+  color: white;
+  padding: 7px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-direction: row; */
+  width: 95%;
+}
+
+#signin,
+.navbar {
+  margin: 0px;
+}
+
+header {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 140px;
+  font-size: 54px;
+  margin-bottom: -15px;
+}
+h2 {
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 55px;
+  font-weight: 800;
+}
+p {
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: -10px;
+  font-size: 24px;
+  font-weight: 400;
+}
+h4 {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 15px;
+  font-weight: 400;
+}
+.email {
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+
+input {
+  padding: 10px;
+  padding-left: 100px;
+  /* padding-right: -300px; */
+}
+.email a button {
+  background-color: red;
+  color: white;
+  padding: 5px 20px 10px 40px;
+  margin-left: -5px;
+  border-color: red;
+}
+.feather {
+  margin-bottom: -0.6em;
+}
